@@ -1,0 +1,16 @@
+.container_selector{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5em;
+
+  span{
+    margin: 0 2em;
+    text-align: center;
+    width: 250px;
+  }
+
+  i{
+    cursor: pointer;
+  }
+}

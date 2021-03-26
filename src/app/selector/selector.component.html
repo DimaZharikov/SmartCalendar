@@ -1,0 +1,9 @@
+<div class="container_selector">
+  <i
+  (click)="changeMonthHandler(-1)"
+  >&lt;</i>
+  <span>{{dateService.date | async | moment}}</span>
+  <i
+  (click)="changeMonthHandler(1)"
+  >&gt;</i>
+</div>
